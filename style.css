@@ -92,3 +92,19 @@
     line-height: 24px;
     color: #FFFFFF;
 }
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 34px;
+    width: 200px;
+    height: 40px;
+    padding: 15px 7px;
+}
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px;
+}
