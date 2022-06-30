@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('http://fonts.cdnfonts.com/css/crete-round');
-.app{
+.app {
     width: 375px;
 }
 .AppBar {
@@ -31,7 +31,7 @@
     border-radius: 8px;
     padding: 8px;
 }
-#name{
+#name {
     width: 77px;
     height: 24px;
     font-family: 'Roboto';
@@ -92,7 +92,7 @@
     line-height: 24px;
     color: #FFFFFF;
 }
-.socialmedia{
+.socialmedia {
     display: flex;
     flex-direction: row;
     align-items: center;
