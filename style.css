@@ -124,3 +124,38 @@ a {
   justify-content: space-between;
   padding: 7px;
 }
+
+.works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 0px;
+  gap: 80px;
+  position: absolute;
+  width: 375px;
+  height: 3455px;
+  top: 646px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 327px;
+  height: 107px;
+}
+
+#workstitle {
+  width: 327px;
+  height: 83px;
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #1C1A19;
+}
