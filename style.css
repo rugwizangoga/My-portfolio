@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('http://fonts.cdnfonts.com/css/crete-round');
-.app {
+
+.app  {
     width: 375px;
 }
-.AppBar {
+
+.AppBar  {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -14,15 +16,17 @@
     left: 0px;
     background-color: #3c3a39;
 }
-.logo {
+
+.logo  {
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 101px;
     height: 44px;
-    padding: 10px 12px;
+    padding: 10px  12px;
 }
-.menu {
+
+.menu  {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -31,7 +35,8 @@
     border-radius: 8px;
     padding: 8px;
 }
-#name {
+
+#name  {
     width: 77px;
     height: 24px;
     font-family: 'Roboto';
@@ -42,18 +47,20 @@
     display: flex;
     align-items: center;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
 }
-.headline {
+
+.headline  {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     height: 590px;
-    background:#1C1A19;
+    background:#1c1a19;
     position: absolute;
 }
-.primarytext {
-    padding: 20px 24px 40px;
+
+.primarytext  {
+    padding: 20px  24px  40px;
     width: 327px;
     height: 124px;
     font-family: 'Crete Round';
@@ -61,17 +68,19 @@
     font-weight: 400;
     font-size: 56px;
     letter-spacing: 0.37px;
-    color: #FF6B00;
+    color: #ff6b00;
 }
-.ilustration {
+
+.ilustration  {
     position: absolute;
     width: 406.89px;
     height: 312.03px;
     left: 227.5px;
     top: 220px;
 }
-.supportingtext {
-    padding: 27px 24px;
+
+.supportingtext  {
+    padding: 27px  24px;
     width: 327px;
     height: 27px;
     font-family: 'Roboto';
@@ -79,9 +88,10 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
-    color: #FFF5E1;
+    color: #fff5e1;
 }
-.description {
+
+.description  {
     padding: 10px 24px;
     width: 327px;
     height: 123px;
@@ -90,18 +100,20 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
-.socialmedia {
+
+.socialmedia  {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-left: 34px;
     width: 200px;
     height: 40px;
-    padding: 15px 7px;
+    padding: 15px  7px;
 }
-.icon {
+
+.icon  {
     display: flex;
     flex-direction: row;
     align-items: center;
