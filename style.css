@@ -26,6 +26,10 @@
   padding: 10px  12px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .menu {
   display: flex;
   flex-direction: row;
@@ -66,7 +70,7 @@
   font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 56px;
+  font-size: 30px;
   letter-spacing: 0.37px;
   color: #ff6b00;
 }
