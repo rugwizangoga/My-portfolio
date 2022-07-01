@@ -2,121 +2,121 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('http://fonts.cdnfonts.com/css/crete-round');
 
-.app  {
-    width: 375px;
+.app {
+  width: 375px;
 }
 
-.AppBar  {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    height: 48px;
-    top: 0px;
-    left: 0px;
-    background-color: #3c3a39;
+.AppBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 48px;
+  top: 0px;
+  left: 0px;
+  background-color: #3c3a39;
 }
 
-.logo  {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 101px;
-    height: 44px;
-    padding: 10px  12px;
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 101px;
+  height: 44px;
+  padding: 10px  12px;
 }
 
-.menu  {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    width: 40px;
-    height: 40px;
-    border-radius: 8px;
-    padding: 8px;
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 8px;
 }
 
-#name  {
-    width: 77px;
-    height: 24px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;
+#name {
+  width: 77px;
+  height: 24px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
 }
 
-.headline  {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    height: 590px;
-    background:#1c1a19;
-    position: absolute;
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 590px;
+  background:#1c1a19;
+  position: absolute;
 }
 
-.primarytext  {
-    padding: 20px  24px  40px;
-    width: 327px;
-    height: 124px;
-    font-family: 'Crete Round';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 56px;
-    letter-spacing: 0.37px;
-    color: #ff6b00;
+.primarytext {
+  padding: 20px  24px  40px;
+  width: 327px;
+  height: 124px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
 }
 
-.ilustration  {
-    position: absolute;
-    width: 406.89px;
-    height: 312.03px;
-    left: 227.5px;
-    top: 220px;
+.ilustration {
+  position: absolute;
+  width: 406.89px;
+  height: 312.03px;
+  left: 227.5px;
+  top: 220px;
 }
 
-.supportingtext  {
-    padding: 27px  24px;
-    width: 327px;
-    height: 27px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    color: #fff5e1;
+.supportingtext {
+  padding: 27px  24px;
+  width: 327px;
+  height: 27px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
 }
 
-.description  {
-    padding: 10px 24px;
-    width: 327px;
-    height: 123px;
-    font-family: 'poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #ffffff;
+.description {
+  padding: 10px 24px;
+  width: 327px;
+  height: 123px;
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
 }
 
-.socialmedia  {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 34px;
-    width: 200px;
-    height: 40px;
-    padding: 15px  7px;
+.socialmedia {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 34px;
+  width: 200px;
+  height: 40px;
+  padding: 15px  7px;
 }
 
-.icon  {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 7px;
+.icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px;
 }
