@@ -176,7 +176,7 @@ button {
   gap: 10px;
   background: #ff6b00;
   border: none;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -189,7 +189,7 @@ button {
 #posttitle {
   width: 327px;
   height: 36px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -202,7 +202,7 @@ button {
 
 #supporting {
   width: 327px;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -221,8 +221,11 @@ button {
   gap: 12px;
 }
 
-.taging {
+li {
   list-style: none;
+}
+
+.taging {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -233,12 +236,12 @@ button {
 }
 
 .tag {
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #091E42;
+  color: #091e42;
 }
 
 .frame {
@@ -270,7 +273,7 @@ button {
   padding: 16px;
   width: 295px;
   height: 81px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -282,7 +285,7 @@ button {
   padding: 0px 16px;
   width: 295px;
   height: 87px;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -317,25 +320,25 @@ button {
 .primary {
   width: 327px;
   height: 79px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
   line-height: 88px;
   letter-spacing: 0.37px;
-  color: #FF6B00;
+  color: #ff6b00;
   margin: 20px 24px;
 }
 
 .secondary {
   width: 327px;
   height: 148px;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #F4F5F7;
+  color: #f4f5f7;
   margin: 20px 24px;
 }
 
@@ -354,4 +357,29 @@ button {
 hr{
   margin-top: 224px;
   width: 327px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  padding: 120px 24px;
+  width: 329px;
+  height: 1241.46px;
+  color: #fff;
+}
+
+.skill {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 60px;
+}
+
+.skill li{
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 55px;
 }
