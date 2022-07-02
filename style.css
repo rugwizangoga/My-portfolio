@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('http://fonts.cdnfonts.com/css/crete-round');
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Crete Round&display=swap');
 
 .app {
   width: 375px;
@@ -123,4 +124,284 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 7px;
+}
+
+.works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 0;
+  gap: 80px;
+  position: absolute;
+  width: 375px;
+  height: 3455px;
+  top: 646px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+  width: 327px;
+  height: 107px;
+  border-bottom: 1px solid #212121;
+}
+
+#workstitle {
+  width: 327px;
+  height: 83px;
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #1c1a19;
+}
+
+.imgholder {
+  width: 327px;
+  height: 237px;
+  padding: 0 24px;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  background: #ff6b00;
+  border: none;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  margin: 20px 24px;
+}
+
+button:enabled {
+  background-color: #f55800;
+  color: #fff;
+}
+
+button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+button:visited {
+  background: #e05304;
+  color: #f4f1f0;
+}
+
+button:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
+}
+
+#posttitle {
+  width: 327px;
+  height: 36px;
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #091e42;
+  padding: 0 24px;
+}
+
+#supporting {
+  width: 327px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+  padding: 12px 24px;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 24px;
+  width: 297px;
+  height: 40px;
+  gap: 12px;
+}
+
+li {
+  list-style: none;
+}
+
+.taging {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 12px;
+  height: 40px;
+  background: #fff;
+  border: 1px solid #8993a4;
+}
+
+.tag {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
+}
+
+.frame {
+  display: grid;
+  width: 375px;
+  height: 2436px;
+  grid-gap: 24px;
+}
+
+.cards {
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+  height: 386px;
+  background-image: url(./pic/backcolor.png);
+}
+
+.buttn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 327px;
+  height: 48px;
+  background: #ff6b00;
+}
+
+.cardtitle {
+  padding: 16px;
+  width: 295px;
+  height: 81px;
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.cardsupporting {
+  padding: 0 16px;
+  width: 295px;
+  height: 87px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.cataging {
+  background: rgba(255, 255, 255, 0.24);
+  border: none;
+}
+
+.catag {
+  color: #fff;
+}
+
+.catags {
+  padding: 1px 16px;
+}
+
+.aboutme {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 375px;
+  height: 1901px;
+  top: 4149px;
+  background: #1c1a19;
+}
+
+.primary {
+  width: 327px;
+  height: 79px;
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin: 20px 24px;
+}
+
+.secondary {
+  width: 327px;
+  height: 148px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+  margin: 20px 24px;
+}
+
+.about {
+  margin-top: 40px;
+}
+
+.ilustrations {
+  position: absolute;
+  width: 493.27px;
+  height: 258.7px;
+  left: 214.5px;
+  top: 320px;
+}
+
+hr {
+  margin-top: 224px;
+  width: 327px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  padding: 120px 24px;
+  width: 329px;
+  height: 1241.46px;
+  color: #fff;
+}
+
+.skill {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 60px;
+}
+
+.skill li {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 43px;
 }
