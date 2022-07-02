@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('http://fonts.cdnfonts.com/css/crete-round');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
 .app {
   width: 375px;
@@ -145,6 +146,7 @@ a {
   gap: 24px;
   width: 327px;
   height: 107px;
+  border-bottom: 1px solid #212121;;
 }
 
 #workstitle {
@@ -157,5 +159,87 @@ a {
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #1C1A19;
+  color: #1c1a19;
+}
+
+.imgholder {
+  width: 327px;
+  height: 237px;
+  padding: 0px 24px;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 124px;
+  height: 48px;
+  background: #ff6b00;
+  border: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  margin: 0px 24px;
+}
+
+#posttitle {
+  width: 327px;
+  height: 36px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #091e42;
+  padding: 0px 24px;
+}
+
+#supporting {
+  width: 327px;
+  height: 147px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+  padding: 0px 24px;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 24px;
+  width: 297px;
+  height: 40px;
+  gap: 12px;
+}
+
+.taging {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 12px;
+  height: 40px;
+  background: #fff;
+  border: 1px solid #8993a4;
+}
+
+.tag {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091E42;
 }
