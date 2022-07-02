@@ -204,14 +204,13 @@ button {
 
 #supporting {
   width: 327px;
-  height: 147px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #091e42;
-  padding: 0px 24px;
+  padding: 12px 24px;
 }
 
 .tags {
@@ -242,4 +241,66 @@ button {
   font-size: 15px;
   line-height: 20px;
   color: #091E42;
+}
+
+.frame {
+  display: grid;
+  width: 375px;
+  height: 2436px;
+  grid-gap: 24px;
+}
+
+.cards {
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+  height: 386px;
+  background-image: url(./pic/backcolor.png);
+}
+
+.buttn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 327px;
+  height: 48px;
+  background: #ff6b00;
+}
+
+#cardtitle {
+  padding: 16px;
+  width: 295px;
+  height: 81px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+#cardsupporting {
+  padding: 0px 16px;
+  width: 295px;
+  height: 87px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.cataging {
+  background: rgba(255, 255, 255, 0.24);
+  border: none;
+}
+
+.catag {
+  color: #fff;
+}
+
+.catags {
+  padding: 1px 16px;
 }
