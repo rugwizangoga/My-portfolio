@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('http://fonts.cdnfonts.com/css/crete-round');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
 .app {
@@ -328,6 +327,7 @@ li {
 }
 
 .aboutme {
+  padding: 50px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -372,7 +372,7 @@ li {
   width: 493.27px;
   height: 258.7px;
   left: 214.5px;
-  top: 390px;
+  top: 320px;
 }
 
 hr {
