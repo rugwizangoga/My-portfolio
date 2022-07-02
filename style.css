@@ -174,8 +174,6 @@ button {
   align-items: center;
   padding: 12px;
   gap: 10px;
-  width: 124px;
-  height: 48px;
   background: #ff6b00;
   border: none;
   font-family: 'Inter';
@@ -185,7 +183,7 @@ button {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #fff;
-  margin: 0px 24px;
+  margin: 20px 24px;
 }
 
 #posttitle {
@@ -303,4 +301,57 @@ button {
 
 .catags {
   padding: 1px 16px;
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 375px;
+  height: 1901px;
+  top: 4149px;
+  background: #1c1a19;
+}
+
+.primary {
+  width: 327px;
+  height: 79px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #FF6B00;
+  margin: 20px 24px;
+}
+
+.secondary {
+  width: 327px;
+  height: 148px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F4F5F7;
+  margin: 20px 24px;
+}
+
+.about {
+  margin-top: 40px;
+}
+
+.ilustrations{
+  position: absolute;
+  width: 493.27px;
+  height: 258.7px;
+  left: 214.5px;
+  top: 390px;
+}
+
+hr{
+  margin-top: 224px;
+  width: 327px;
 }
