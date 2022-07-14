@@ -437,3 +437,41 @@ li {
   color: #172b4d;
   padding: 0;
 }
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 327px;
+  height: 330px;
+  padding: 95px 24px 120px;
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.formfonts {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  border: 1px solid  #dbd8d7;
+  border-top-style: hidden;
+  border-left-style: hidden ;
+  border-right-style: hidden;
+}
+
+.formfonts:focus {
+  outline: none;
+}
+
+.names { 
+  width: 327px;
+  height: 48px;  
+}
+
+#comment {
+  width: 327px;
+  height: 114px;
+  background-color: #fbf8f7;
+}
