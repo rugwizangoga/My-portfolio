@@ -421,7 +421,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   margin: 0 24px;
   width: 327px;
   height: 216px;
@@ -478,7 +478,7 @@ li {
 
 .basemedia {
   padding: 0;
-  margin: 0px;
+  margin: 0;
   margin-left: 44px;
   margin-top: 20px;
 }
