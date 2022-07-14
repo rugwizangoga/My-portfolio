@@ -450,14 +450,14 @@ li {
 }
 
 .formfonts {
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   border: 1px solid  #dbd8d7;
   border-top-style: hidden;
-  border-left-style: hidden ;
+  border-left-style: hidden;
   border-right-style: hidden;
 }
 
@@ -465,9 +465,9 @@ li {
   outline: none;
 }
 
-.names { 
+.names {
   width: 327px;
-  height: 48px;  
+  height: 48px;
 }
 
 #comment {
