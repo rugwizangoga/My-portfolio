@@ -8,6 +8,10 @@
 - CSS
 - Linters
 
+## Live Demo
+
+[Live Demo Link](https://rugwizangoga.github.io/My-portfolio)
+
 👤 **Author**
 
 - GitHub: [@githubhandle](https://github.com/rugwizangoga)
