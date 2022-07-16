@@ -3,18 +3,26 @@
 @import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Crete Round&display=swap');
 
+body {
+  margin: 0;
+}
+
 .app {
-  width: 375px;
+  width: 100%;
+  min-width: 375px;
+}
+
+.innerapp {
+  width: 87.2%;
+  padding: 10px;
 }
 
 .AppBar {
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  height: 48px;
-  top: 0;
-  left: 0;
   background-color: #3c3a39;
 }
 
@@ -23,7 +31,6 @@
   flex-direction: row;
   align-items: center;
   width: 101px;
-  height: 44px;
   padding: 10px  12px;
 }
 
@@ -31,19 +38,25 @@ a {
   text-decoration: none;
 }
 
+nav {
+  display: none;
+}
+
 .menu {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   width: 40px;
-  height: 40px;
   border-radius: 8px;
   padding: 8px;
 }
 
+.imgmenu {
+  display: unset;
+}
+
 #name {
   width: 77px;
-  height: 24px;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -56,51 +69,45 @@ a {
 }
 
 .headline {
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  height: 590px;
+  align-items: center;
   background: #1c1a19;
-  position: absolute;
+  background-image: url(./pic/Illustration.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  padding: 80px 0;
 }
 
-.primarytext {
-  padding: 20px  24px  40px;
-  width: 327px;
-  height: 124px;
+h1 {
   font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 56px;
+  line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
 }
 
-.ilustration {
-  position: absolute;
-  width: 406.89px;
-  height: 312.03px;
-  left: 227.5px;
-  top: 220px;
+img {
+  max-width: 100%;
 }
 
 .supportingtext {
-  padding: 27px  24px;
-  width: 327px;
-  height: 27px;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
+  display: flex;
+  align-items: center;
   color: #fff5e1;
 }
 
 .description {
-  padding: 10px 24px;
-  width: 327px;
-  height: 123px;
-  font-family: 'poppins', Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -112,9 +119,7 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 34px;
-  width: 200px;
-  height: 40px;
+  width: 53.3%;
   padding: 15px  7px;
 }
 
@@ -131,27 +136,20 @@ a {
   flex-direction: column;
   align-items: center;
   padding: 70px 0;
-  gap: 80px;
-  position: absolute;
-  width: 375px;
-  height: 3455px;
-  top: 646px;
+  gap: 45px;
+  position: relative;
 }
 
 .title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 0;
   gap: 24px;
-  width: 327px;
-  height: 107px;
-  border-bottom: 1px solid #212121;
+}
+
+.works > p {
+  margin: 0;
 }
 
 #workstitle {
-  width: 327px;
-  height: 83px;
   font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -160,12 +158,6 @@ a {
   display: flex;
   align-items: center;
   color: #1c1a19;
-}
-
-.imgholder {
-  width: 327px;
-  height: 237px;
-  padding: 0 24px;
 }
 
 button {
@@ -183,7 +175,6 @@ button {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #fff;
-  margin: 20px 24px;
 }
 
 button:enabled {
@@ -208,8 +199,6 @@ button:disabled {
 }
 
 #posttitle {
-  width: 327px;
-  height: 36px;
   font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -218,27 +207,26 @@ button:disabled {
   display: flex;
   align-items: center;
   color: #091e42;
-  padding: 0 24px;
+  margin: 16px 0;
 }
 
 #supporting {
-  width: 327px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #091e42;
-  padding: 12px 24px;
+}
+
+ul {
+  padding: 0;
 }
 
 .tags {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0 24px;
-  width: 297px;
-  height: 40px;
   gap: 12px;
 }
 
@@ -251,7 +239,6 @@ li {
   flex-direction: row;
   align-items: center;
   padding: 0 12px;
-  height: 40px;
   background: #fff;
   border: 1px solid #8993a4;
 }
@@ -267,45 +254,36 @@ li {
 
 .frame {
   display: grid;
-  width: 375px;
-  height: 2436px;
   grid-gap: 24px;
 }
 
 .cards {
-  margin-left: 24px;
   display: flex;
   flex-direction: column;
-  width: 327px;
-  height: 386px;
   background-image: url(./pic/backcolor.png);
 }
 
 .buttn {
+  margin-top: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 327px;
-  height: 48px;
   background: #ff6b00;
 }
 
 .cardtitle {
   padding: 16px;
-  width: 295px;
-  height: 81px;
   font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
   color: #fff;
+  margin: 24px 0;
 }
 
 .cardsupporting {
   padding: 0 16px;
-  width: 295px;
-  height: 87px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -328,20 +306,26 @@ li {
 }
 
 .aboutme {
-  padding: 50px 0;
+  padding: 80px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute;
-  width: 375px;
-  height: 1901px;
-  top: 4149px;
+  position: relative;
   background: #1c1a19;
 }
 
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 175px;
+  background-image: url(./pic/illustration-about-me-mobile.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
 .primary {
-  width: 327px;
-  height: 79px;
   font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -349,44 +333,27 @@ li {
   line-height: 88px;
   letter-spacing: 0.37px;
   color: #ff6b00;
-  margin: 20px 24px;
+  margin: 10px 0;
 }
 
 .secondary {
-  width: 327px;
-  height: 148px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
-  margin: 20px 24px;
 }
 
-.about {
-  margin-top: 40px;
-}
-
-.ilustrations {
-  position: absolute;
-  width: 493.27px;
-  height: 258.7px;
-  left: 214.5px;
-  top: 320px;
-}
-
-.hr1 {
-  margin-top: 224px;
-  width: 327px;
+h2 {
+  margin: 0;
 }
 
 .skills {
   display: flex;
   flex-direction: column;
-  padding: 120px 24px;
-  width: 329px;
-  height: 1241.46px;
+  align-items: center;
+  padding: 120px 0;
   color: #fff;
 }
 
@@ -402,51 +369,43 @@ li {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 43px;
+  text-align: center;
 }
 
 .contactform {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 80px 0;
-  position: absolute;
-  width: 375px;
-  height: 844px;
-  top: 6150px;
 }
 
 .contactdescription {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 0;
-  margin: 0 24px;
-  width: 327px;
-  height: 216px;
-}
-
-.contact {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
+  color: #172b4d;
   font-style: normal;
   font-weight: 700;
   font-size: 33px;
   line-height: 44px;
-  text-align: center;
-  color: #172b4d;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 0;
+  text-align: center;
 }
 
 #form {
+  margin: 46px 0 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  width: 327px;
-  height: 330px;
-  padding: 90px 24px 120px;
-  border-bottom: 1px solid #dfe1e6;
+  width: 100%;
 }
 
 .formfonts {
@@ -466,27 +425,189 @@ li {
 }
 
 .names {
-  width: 327px;
-  height: 48px;
+  width: 100%;
 }
 
 #comment {
-  width: 327px;
-  height: 114px;
+  width: 100%;
   background-color: #fbf8f7;
 }
 
 .basemedia {
   padding: 0;
-  margin: 0;
-  margin-left: 44px;
-  margin-top: 20px;
+}
+
+.media {
+  display: flex;
+  justify-content: center;
 }
 
 .hr2 {
-  margin-left: 114px;
-  margin-top: 11px;
   background: #0d151e;
   width: 134px;
-  height: 5px;
+}
+
+.line {
+  width: 100%;
+  color: #dfe1e6;
+}
+
+@media screen and (min-width: 768px) {
+  .imgmenu {
+    display: none;
+  }
+
+  .menu {
+    width: 40%;
+  }
+
+  .navul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .navul > li {
+    width: 20%;
+    color: #fff;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .logo {
+    width: 35%;
+  }
+
+  .headline {
+    background-image: url(./pic/Illustration-header@2x.png);
+    background-size: 23%;
+    align-items: flex-start;
+    background-position-y: top;
+  }
+
+  .primarycontent {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .content {
+    order: 2;
+  }
+
+  .socialmedia {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    order: 1;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #rline {
+    flex-grow: 1;
+    width: 1px;
+    background-color: #212121;
+  }
+
+  nav {
+    display: unset;
+    width: 100%;
+  }
+
+  .frameimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .imgholder {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .post {
+    width: 50%;
+  }
+
+  #posttitle {
+    margin: 0;
+  }
+
+  .frame {
+    grid-template-columns: 31% 31% 31%;
+  }
+
+  .about {
+    background-image: url(./pic/illustration-about\ me@2x.png);
+    background-size: 45%;
+    align-items: flex-start;
+    margin-left: 40px;
+    padding: 60px 0;
+  }
+
+  .me {
+    width: 55%;
+  }
+
+  .hr1 {
+    margin-top: 40px;
+  }
+
+  .li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .contact {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 80px 0;
+  }
+
+  #form {
+    width: 53%;
+  }
+
+  .contactdescription {
+    text-align: start;
+    width: 42%;
+  }
+
+  .basemedia {
+    flex-direction: row;
+  }
+
+  .card2 {
+    background-image: url(./pic/backcol.png);
+  }
+
+  .card3 {
+    background-image: url(./pic/backcolo.png);
+  }
+
+  .subline {
+    width: 0;
+    height: 0;
+  }
+
+  .media {
+    height: 40px;
+  }
+
+  .contactform {
+    padding: 0;
+  }
 }
