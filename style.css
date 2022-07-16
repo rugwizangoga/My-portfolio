@@ -38,7 +38,7 @@ a {
   text-decoration: none;
 }
 
-nav{
+nav {
   display: none;
 }
 
@@ -91,7 +91,7 @@ h1 {
   color: #ff6b00;
 }
 
-img{
+img {
   max-width: 100%;
 }
 
@@ -145,7 +145,7 @@ img{
   gap: 24px;
 }
 
-.works p{
+.works > p {
   margin: 0;
 }
 
@@ -219,7 +219,7 @@ button:disabled {
   color: #091e42;
 }
 
-ul{
+ul {
   padding: 0;
 }
 
@@ -349,9 +349,6 @@ h2 {
   margin: 0;
 }
 
-.hr1 {
-}
-
 .skills {
   display: flex;
   flex-direction: column;
@@ -441,7 +438,7 @@ h2 {
   padding: 0;
 }
 
-.media{
+.media {
   display: flex;
   justify-content: center;
 }
@@ -453,7 +450,7 @@ h2 {
 
 .line {
   width: 100%;
-  color: #DFE1E6;
+  color: #dfe1e6;
 }
 
 @media screen and (min-width: 768px) {
@@ -492,6 +489,7 @@ h2 {
       align-items: flex-start;
       background-position-y: top;
     }
+
   .primarycontent {
     width: 80%;
     display: flex;
@@ -520,6 +518,7 @@ h2 {
     width: 1px;
     background-color: #212121;
   }
+
   nav {
     display: unset;
     width: 100%;
@@ -530,6 +529,7 @@ h2 {
     flex-direction: row;
     justify-content: space-between;
   }
+
   .imgholder {
     width: 35%;
     display: flex;
@@ -557,9 +557,11 @@ h2 {
     margin-left: 40px;
     padding: 60px 0;
   }
+
   .me {
     width: 55%;
   }
+
   .hr1 {
     margin-top: 40px;
   }
@@ -571,7 +573,6 @@ h2 {
     width: 100%;
   }
 
-  
   .contact {
     flex-direction: row;
     justify-content: space-between;
@@ -612,5 +613,5 @@ h2 {
   .contactform {
     padding: 0;
   }
-  
+
 }
