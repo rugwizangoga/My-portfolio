@@ -102,8 +102,8 @@ img {
   font-size: 24px;
   line-height: 32px;
   display: flex;
-  align-items: center;  
-  color: #FFF5E1;
+  align-items: center;
+  color: #fff5e1;
 }
 
 .description {
@@ -454,7 +454,6 @@ h2 {
 }
 
 @media screen and (min-width: 768px) {
-
   .imgmenu {
     display: none;
   }
@@ -484,11 +483,11 @@ h2 {
   }
 
   .headline {
-      background-image: url(./pic/Illustration-header@2x.png);
-      background-size: 23%;
-      align-items: flex-start;
-      background-position-y: top;
-    }
+    background-image: url(./pic/Illustration-header@2x.png);
+    background-size: 23%;
+    align-items: flex-start;
+    background-position-y: top;
+  }
 
   .primarycontent {
     width: 80%;
@@ -553,7 +552,6 @@ h2 {
     background-image: url(./pic/illustration-about\ me@2x.png);
     background-size: 45%;
     align-items: flex-start;
-    padding-bottom: 0;
     margin-left: 40px;
     padding: 60px 0;
   }
@@ -614,4 +612,5 @@ h2 {
     padding: 0;
   }
 
+  
 }
