@@ -571,5 +571,46 @@ h2 {
     width: 100%;
   }
 
+  
+  .contact {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 80px 0;
+  }
 
+  #form {
+    width: 53%;
+  }
+
+  .contactdescription {
+    text-align: start;
+    width: 42%;
+  }
+
+  .basemedia {
+    flex-direction: row;
+  }
+
+  .card2 {
+    background-image: url(./pic/backcol.png);
+  }
+
+  .card3 {
+    background-image: url(./pic/backcolo.png);
+  }
+
+  .subline {
+    width: 0;
+    height: 0;
+  }
+
+  .media {
+    height: 40px;
+  }
+
+  .contactform {
+    padding: 0;
+  }
+  
 }
